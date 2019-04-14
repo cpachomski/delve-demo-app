@@ -1,11 +1,17 @@
+html {
+  background: linear-gradient(
+    9deg,
+    rgba(76, 85, 103, 1) 0%,
+    rgba(86, 147, 173, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {

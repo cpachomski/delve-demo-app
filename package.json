@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@pachomski/delve": "^0.1.0",
     "react": "^16.8.3",
+    "react-alert": "^5.4.0",
+    "react-alert-template-basic": "^1.0.0",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-json-view": "^1.19.1",
+    "react-scripts": "2.1.5",
+    "react-select": "^2.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "GITHUB_TOKEN=c2ebb9afb885eefa4c964002ca2b702a374b0c51 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
